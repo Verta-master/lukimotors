@@ -1,0 +1,124 @@
+	a { /*# Ссылки */
+		color: #2e2e2e;
+	}
+	a:hover { /*# Ссылки при наведении */
+		color: #f39c12;
+	}
+	.text a { /*# Ссылки в тексте */
+		color: #f39c12;
+	}
+	.text a:hover { /*# Ссылки в тексте при наведении */
+		color: #2e2e2e;
+	}
+
+.nav > li > a  { /*# Пункты верхнего меню */
+	  color:#040404;
+}
+
+.nav > li:hover > a  { /*# Пункты верхнего меню при наведении */
+	color: #2e2e2e;
+}
+
+.call-back  { /*# Обратный звонок в шапке */
+	  color: #000000;
+}
+
+nav.header__center  { /*# Плашка основного меню */
+
+}
+
+.nav_main > li  { /*# Разделитель пунктов основного меню */
+  border-right-color: #424648;
+}
+
+.nav_main > li > a  { /*# Пункты основного меню */
+  color: #060605;
+}
+
+.nav_main > li:hover > a { /*# Пункты осногвного меню при наведении */
+	color: #ffffff;
+}
+
+.nav__popup  { /*# Подменю */
+	background-color: #2e2e2e;
+}
+
+.header .search .search_form input:not([type="submit"]):not([type="button"]):not([type="image"]):not([type="checkbox"])  { /*# Форма поиска */
+  border-color: #424648;
+  color: #fff;
+}
+
+.search .search_form .submit_search  { /*# Кнопка поиска */
+	color:#000000;
+}
+
+
+
+.form-shop_catalog {
+	background-color: transparent;
+}
+
+
+
+.col-right .cart_title  { /*# Заголовок блока корзина */
+	  color: #f39c12;
+}
+
+.col-right .cart_total i  { /*# Итого в блоке корзина */
+	color: #f39c12;
+}
+
+.btn, a.btn, input[type="button"], input[type="submit"], input[type="reset"], button  { /*# Кнопки */
+	border-color: #CD912B;
+	color: #2e2e2e;
+  	background-color: transparent;
+}
+
+.btn:hover,
+	input[type="button"]:hover,
+	input[type="submit"]:hover,
+	input[type="reset"]:hover,
+	button:hover { /*# Кнопки при наведении */
+		color: #fff;
+		background: #f39c12;
+	}
+	.btn:active,
+	input[type="button"]:active,
+	input[type="submit"]:active,
+	input[type="reset"]:active,
+	button:active,
+	.search .submit_search:active { /*# Кнопки при нажатии */
+		border-left-color: #da8c10;
+		border-top-color: #da8c10;
+	}
+
+	.btn_white { /*# Белые кнопки */
+	border-color: #fff;
+	color: #fff;
+}
+.btn_white:hover { /*# Белые кнопки при наведении */
+	background: #fff;
+	color: #2e2e2e;
+}
+
+.btn.btn_orange_big  { /*# Оранжевые кнопки */
+	background: #CD912B;
+  	color: #000000;
+}
+
+.block_postp .fa-heart  { /*# Икнока в блоке отложенные товары */
+	  color: #f39c12;
+}
+
+.col-right .cabinet  { /*# Блок личный кабинет */
+	  color: #fff;
+	  background-color: #f39c12;
+}
+
+.catalog__item__ui, .item-info__ui  { /*# Добавить к сравнению и отложить в товаре  */
+	color:#f39c12;
+}
+
+.container  { /*# Фон на странице */
+	background-color: #000000;
+}
