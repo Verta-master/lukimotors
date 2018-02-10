@@ -90,6 +90,7 @@ gulp.task("copy", function () {
     "fonts/**/*",
     "img/*.{svg,png,jpg,gif}",
     "js/*.js",
+    "css/*.css",
     "*.html"
   ], {
     base: "."
